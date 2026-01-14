@@ -12,8 +12,8 @@ El programa utiliza **Python** y la librería **Selenium** para interactuar con 
 
 ## Características principales
 
-- **Interacción con Input Oculto:** El envío de caracteres se realiza directamente al elemento `#wordsInput`, que es el componente encargado de procesar la entrada de texto en la plataforma.
-- **Latencia Variable:** Implementación de pausas aleatorias entre pulsaciones de teclas para evitar una cadencia mecánica uniforme.
+- **Interacción:** El envío de caracteres se realiza directamente al elemento `#wordsInput`, que es el componente encargado de procesar la entrada de texto en la plataforma.
+- **Latencia:** Implementación de pausas aleatorias entre pulsaciones de teclas para evitar una cadencia mecánica uniforme.
 - **Gestión de Referencias Dinámicas:** Localización del elemento `.word.active` en cada iteración del ciclo para prevenir errores de punteros nulos o caducos.
 
 ---
@@ -22,7 +22,7 @@ El programa utiliza **Python** y la librería **Selenium** para interactuar con 
 
 ### Clonar repositorio
 ```bash
-$ git clone https://github.com/tu-usuario/monkeytype-bot.git
+$ git clone https://github.com/ricardobuendiaa/monkeytype-bot.git
 $ cd monkeytype-bot
 ```
 ### Entorno 
